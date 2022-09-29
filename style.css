@@ -42,6 +42,9 @@ body {
 	text-decoration: none;
 	color: white;
 }
+#tel {
+	text-decoration: underline;
+}
 .hero {
 	background-image: url("image 4.3.jpg");
 	background-size: cover;
@@ -83,44 +86,56 @@ body {
     font-size: 22px;
     line-height: 36px;
     color: #FFFFFF;
+    z-index: 2;
+    position: relative;
+    margin-top: 40px;
+    bottom: 28px;
     }
-   .button2 {
-        font-family: 'Nunito Sans';
-font-weight: 400;
-font-size: 13px;
-line-height: 15px;
-text-align: center;
-color: #FFFFFF;
-background: #E3B873;
-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
-border-radius: 2px;
-position: absolute;
-left: 8.8%;
-top: 50%;
-bottom: 43.3%;
-right: 78%;
-outline: 0;
-border: 0;
-text-transform: uppercase;
+.button2 {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    /*position: absolute;
+    left: 8.8%;
+    top: 50%;
+    bottom: 43.3%;
+    right: 78%;*/
+    outline: 0;
+    border: 0;
+    text-transform: uppercase;
+    padding: 20px;
+    z-index: 2;
 }
+.button2:hover {color: black;}
 .button3 {
- position: absolute;
-left: 0%;
-right: 0.14%;
-top: 10%;
-bottom: 0%;
-background: rgba(0, 0, 0, 0.1);
-position: absolute;
-left: 24%;
-right: 62.15%;
-top: 49.95%;
-bottom: 43.4%;
-font-family: 'Nunito Sans';
-font-weight: 400;
-font-size: 11px;
-line-height: 15px;
-text-align: center;
-color: #FFFFFF;
-border: 1px solid #FFFFFF;
-border-radius: 2px;
+    position: absolute;
+    /*left: 0%;
+    right: 0.14%;
+    top: 10%;
+    bottom: 0%;*/
+    background: rgba(0, 0, 0, 0.1);
+    /*position: absolute;
+    left: 24%;
+    right: 62.15%;
+    top: 49.95%;
+    bottom: 43.4%;*/
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 20px;
+    margin-left: 44px;
 }
+
+
+
