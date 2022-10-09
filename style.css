@@ -16,6 +16,7 @@ body {
 	align-items: center;
 }
 .button {
+	position: relative;
 	background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
@@ -24,6 +25,10 @@ body {
     padding: 13px 33px;
     color: white;
     text-transform: uppercase;
+}
+.button:hover {
+	background: white;
+	color: #E3B873;
 }
 .logo {
 	color: #E3B873;
@@ -52,7 +57,7 @@ body {
 	padding-top: 194px;
 	padding-left: 134px;
 	position: relative;
-	}
+    }
 .title {
 	margin: 0;
 	font-family: Yeseva One, 'Times New Roman', Times, serif;
@@ -92,6 +97,7 @@ body {
     bottom: 28px;
     }
 .button2 {
+    position: relative;
     font-family: 'Nunito Sans';
     font-weight: 400;
     font-size: 13px;
@@ -101,30 +107,19 @@ body {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
     border-radius: 2px;
-    /*position: absolute;
-    left: 8.8%;
-    top: 50%;
-    bottom: 43.3%;
-    right: 78%;*/
     outline: 0;
     border: 0;
     text-transform: uppercase;
     padding: 20px;
     z-index: 2;
 }
-.button2:hover {color: black;}
+.button2:hover {
+	color: #E3B873;
+	background: white;
+}
 .button3 {
     position: absolute;
-    /*left: 0%;
-    right: 0.14%;
-    top: 10%;
-    bottom: 0%;*/
     background: rgba(0, 0, 0, 0.1);
-    /*position: absolute;
-    left: 24%;
-    right: 62.15%;
-    top: 49.95%;
-    bottom: 43.4%;*/
     font-family: 'Nunito Sans';
     font-weight: 400;
     font-size: 11px;
@@ -133,9 +128,321 @@ body {
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 2px;
-    padding: 20px;
+    padding: 19px;
     margin-left: 44px;
 }
+.button3:hover {
+	background: #E3B873;
+}
+.hero2 {
+    background-color: black;
+    background-size: cover;
+    height: 850px;
+    padding-top: 194px;
+    padding-left: 134px;
+    position: relative;
+}
+.admiral {
+    list-style: none;
+    display: flex;
+    right: 100px;
+    justify-content: end;
+    padding-top: 65px;    
+    font-family: 'Arial';
+}
+.admiral2 {
+    margin-right: 96px;
 
 
+}
+.admiral2 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+.rostov a {
+    text-decoration: underline;
+    color: #E3B873;
 
+}
+.completed-container {
+   position: relative;
+   z-index: 1;
+   bottom: 150px;
+}
+.completed {
+	color: white;
+	position: absolute;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.years {
+    font-family: 'Nunito Sans';
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+.city {
+    font-family: 'Arial';
+    font-style: normal;
+    position: absolute;
+    top: 330px;
+    display: grid;
+    grid-template-columns: 235px 235px;
+    grid-row-gap: 18px;
+}
+.cityh {
+    color: #E3B873;
+}
+.citys {
+    color: white;
+}
+.imager {
+    position: relative;
+    left: 580px;
+    top: 30px;
+}
+.vector1 {
+    position: relative;
+    top: 510px;
+}
+.vector11 {
+    position: relative;
+    top: 504px;
+    right: 10px;
+}
+.dot1 {
+    position: relative;
+    top: 508px;
+    right: 15px;
+}
+.dot2 {
+    position: relative;
+    top: 508px;
+}
+.dot3 {
+    position: relative;
+    top: 508px;
+    left: 15px;
+}
+.vector2 {
+    position: relative;
+    top: 510px;
+    left: 204px;
+}
+.vector22 {
+    position: relative;
+    top: 504px;
+    left: 155px;
+}
+.hero3 {
+    background-color: white;
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    padding-left: 134px;
+    position: absolute;
+}
+.video-container {
+    position: absolute;
+    bottom: 450px;
+}
+.control {
+    text-transform: uppercase;
+    font-family: Yeseva One;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    left: 530px;
+    top: 105px;
+    color: white;
+}
+.camera {
+    position: absolute;
+    left: 568px;
+    top: 230px;
+    margin-top: 60px;
+}
+.camera2 {
+    position: relative;
+    bottom: 125px;
+}
+.camera3 {
+    position: relative;
+}
+.remont {
+    position: relative;
+    left: 200px;
+    top: 180px;
+}
+.ellipse {
+    position: relative;
+    left: 510px;
+    bottom: 97px;
+    z-index: 1;
+}
+.play {
+    position: relative;
+    left: 602px;
+    bottom: 159px;
+    z-index: 2;
+    width: 30px;
+}
+hr {
+    width: 60px;
+    position: relative;
+    left: 200px;
+    top: 60px;
+    background-color: #E3B873;
+    border-radius: 30px;
+}
+.text3 {
+    position: relative;
+    left: 190px;
+    top: 80px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+}
+.hero3-overlay {
+    content: '';
+    width: 817px;
+    height: 434px;
+    position: absolute;
+    top: 241px;
+    left: 150px;
+    left: 200px;
+    background-color: rgba(0,0,0,.7);
+}
+.form {
+    position: relative;
+    top: 400px;
+    left: 250px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
+.form-button {
+    text-transform: uppercase;
+    position: relative;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 55px;
+    color: white;
+}
+.form-button:hover {
+    background: black;
+    color: #E3B873;
+}
+.label1 {
+    position: relative;
+    left: 47px;
+    bottom: 23px;
+    color: #9e9e9e;
+    transition: 0.3s;
+}
+.label2 {
+    position: relative;
+    left: 47px;
+    bottom: 23px;
+    color: #9e9e9e;
+    transition: 0.3s;
+}
+.form-input {
+    width: 20%;
+    padding: 0 70px 10px 0;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    background-color: transparent;
+    color: black;
+    outline: none;
+    transition: 0.3s;
+    margin: 10px;
+
+
+}
+.agree {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+}
+.check {
+    position: relative;
+}
+.checkbox {
+    appearance: none;
+    position: relative;
+}
+.checklabel {
+    padding-left: 25px;
+    color: #444;
+    position: absolute;
+    right: 280px;
+    top: 105px;
+}
+.checklabel:before {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.checklabel:after {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url("galka.png") no-repeat;
+    background-size: 8px 8px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    z-index: 2;
+    opacity: 0;
+}
+.checkbox:checked + .checklabel:before {
+
+}
+.checkbox:checked + .checklabel:after {
+    background-color: #E3B873;
+    opacity: 1;
+}
+.types {
+    position: absolute;
+    padding-left: 610px;
+    padding-top: 780px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-size: 22px;
+}
+.tire1 {
+    position: relative;
+}
