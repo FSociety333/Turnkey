@@ -252,62 +252,41 @@ body {
     position: absolute;
 }
 .video-container {
-    position: absolute;
-    bottom: 450px;
-}
-.control {
-    text-transform: uppercase;
-    font-family: Yeseva One;
-    font-weight: 700;
-    font-size: 20px;
     position: relative;
-    left: 530px;
-    top: 105px;
-    color: white;
+    bottom: 600px;
 }
 .camera {
-    position: absolute;
-    left: 568px;
-    top: 230px;
-    margin-top: 60px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   left: 100px;
+   top: 660px;
+
 }
 .camera2 {
     position: relative;
-    bottom: 125px;
-}
-.camera3 {
-    position: relative;
+    bottom: 568px;
+   
 }
 .remont {
     position: relative;
     left: 200px;
-    top: 180px;
-}
-.ellipse {
-    position: relative;
-    left: 510px;
-    bottom: 97px;
-    z-index: 1;
+    top: 160px;
 }
 .play {
     position: relative;
-    left: 602px;
-    bottom: 159px;
-    z-index: 2;
-    width: 30px;
+    right: 280px;
+    z-index: 1;
 }
-hr {
-    width: 60px;
+.hr {
     position: relative;
-    left: 200px;
-    top: 60px;
-    background-color: #E3B873;
-    border-radius: 30px;
+    top: 250px;
+    right: 385px;
 }
 .text3 {
     position: relative;
-    left: 190px;
-    top: 80px;
+    left: 115px;
+    top: 265px;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -321,15 +300,15 @@ hr {
     width: 817px;
     height: 434px;
     position: absolute;
-    top: 241px;
+    top: 226px;
     left: 150px;
     left: 200px;
     background-color: rgba(0,0,0,.7);
 }
 .form {
     position: relative;
-    top: 400px;
-    left: 250px;
+    bottom: 200px;
+    left: 240px;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -399,8 +378,8 @@ hr {
     padding-left: 25px;
     color: #444;
     position: absolute;
-    right: 280px;
-    top: 105px;
+    right: 470px;
+    top: 90px;
 }
 .checklabel:before {
     content: "";
@@ -435,14 +414,6 @@ hr {
     opacity: 1;
 }
 .types {
-    position: absolute;
-    padding-left: 610px;
-    padding-top: 780px;
-    color: black;
-    text-transform: uppercase;
-    font-family: 'Yeseva One';
-    font-size: 22px;
-}
-.tire1 {
     position: relative;
+    color: red;
 }
