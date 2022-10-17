@@ -1057,12 +1057,13 @@ body {
 .hero7 {
     width: 1439px;
 }
-.quest-container {
+.quest {
     width: 883px;
     height: 445.32px;
     background-color: black;
     position: relative;
     bottom: 120px;
+    left: 310px;
 }
 .have {
     font-family: 'Yeseva One';
@@ -1144,8 +1145,8 @@ body {
    line-height: 21px;
    color: rgba(255, 255, 255, 0.5); 
    position: relative;
-   top: 66px;
-   left: 61px; 
+   top: 166px;
+   right: 517px; 
 }
 .form-input333 {
     width: 40%;
@@ -1169,7 +1170,8 @@ body {
 .checkbox333 {
     text-transform: uppercase;
     position: relative;
-    left: 200px;
+    right: 279px;
+    top: 210px;
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
@@ -1185,9 +1187,8 @@ body {
 .checklabel444 {
     padding-left: 25px;
     color: #444;
-   
     position: relative;
-    right: 200px;
+    right: 300px;
     top: 210px;
 }
 .checklabel444:before {
@@ -1201,7 +1202,7 @@ body {
     top: 0;
     /*left: 0;*/
     z-index: 1;
-    right: 241px;
+    left: 1px;
 }
 .checklabel444:after {
     content: "";
@@ -1215,8 +1216,8 @@ body {
     /*left: 2px;*/
     z-index: 2;
     opacity: 0;
-    right: 241px;
-}
+    left: 1.5px;
+    }
 .checkbox333:checked + .checklabel444:before {
 
 }
