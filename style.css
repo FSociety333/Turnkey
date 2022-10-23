@@ -35,13 +35,13 @@ body {
 }
 .header {
     background-color: black;
-    }
+}
 .header-navi {
     list-style: none;
     display: flex;
 }
 .header-navi-item {
-    margin-right: 47px;
+    margin-right: 80px;
 }
 .header-navi-item a {
     text-decoration: none;
@@ -57,7 +57,15 @@ body {
     padding-top: 194px;
     padding-left: 134px;
     position: relative;
-    }
+}
+#tel {
+    display: flex;
+    text-decoration: none;
+    color: #FFFFFF;
+   }
+.button {
+    display: none;
+   }
 .title {
     margin: 0;
     font-family: Yeseva One, 'Times New Roman', Times, serif;
@@ -95,7 +103,7 @@ body {
     position: relative;
     margin-top: 40px;
     bottom: 28px;
-    }
+}
 .button2 {
     position: relative;
     font-family: 'Nunito Sans';
@@ -134,6 +142,21 @@ body {
 .button3:hover {
     background: #E3B873;
 }
+.button3mob {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 19px;
+    margin-left: 44px;
+    display: none;
+}
 .hero2 {
     background-color: black;
     background-size: cover;
@@ -162,7 +185,6 @@ body {
 .rostov a {
     text-decoration: underline;
     color: #E3B873;
-
 }
 .completed-container {
    position: relative;
@@ -189,6 +211,26 @@ body {
     line-height: 27px;
     color: #FFFFFF;
     margin-top: 130px;
+}
+.years2 {
+    font-family: 'Nunito Sans';
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    display: none;
+}
+.kv {
+    display: none;
+}
+.strelkal {
+   display: none;
+}
+.strelkar {
+    display: none;
 }
 .city {
     font-family: 'Arial';
@@ -246,37 +288,18 @@ body {
 .hero3 {
     background-color: white;
     background-size: cover;
-    /*height: 707px;
-    padding-top: 194px;
-    padding-left: 134px;
-    position: absolute;
     position: relative;
-    top: 0;*/
-    position: relative;
-    /*top: 0;
-    bottom: 65px;*/
-
 }
 .video-container {
     position: relative;
     bottom: 220px;
-    /* position: absolute;
-    bottom: 139px;
-    top: 0;*/
 }
 .camera {
-   /*display: flex;
-   justify-content: center;
-   position: relative;
-   left: 100px;
-   top: 660px;*/
-   text-align: center;
-
+  text-align: center;
 }
 .camera2 {
     position: relative;
     bottom: 50px;
-   
 }
 .remont {
     position: relative;
@@ -288,7 +311,6 @@ body {
     right: 191px;
     z-index: 1;
     bottom: 150px;
-    /* top: 0;*/
 }
 .hr {
     position: relative;
@@ -299,7 +321,6 @@ body {
 }
 .text3 {
     position: relative;
-    /*   left: 115px; */
     top: 79px;
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -321,8 +342,6 @@ body {
 }
 .form {
     position: relative;
-    /*  bottom: 200px;
-    left: 240px; */
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -373,8 +392,9 @@ body {
     margin: 10px;
     position: relative;
     left: 200px;
-
-
+}
+#labelnumber {
+    display: none;
 }
 .agree {
     display: flex;
@@ -411,7 +431,6 @@ body {
     background-color: #fff;
     position: absolute;
     top: 0;
-    /*left: 0;*/
     z-index: 1;
     right: 241px;
 }
@@ -424,7 +443,6 @@ body {
     background-size: 100%;
     position: absolute;
     top: 1px;
-    /*left: 2px;*/
     z-index: 2;
     opacity: 0;
     right: 241px;
@@ -440,11 +458,25 @@ body {
   width: 489px;
   height: 1900px;
 }
+.type {
+   font-family: 'Yeseva One';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 28px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #181818;
+   position: relative;
+   left: 530px;
+   top: 75px;
+}
 .types {
     position: relative;
     left: 640px;
     top: 70px;
 }
+
 .blue {
     position: relative;
     top: 140px;
@@ -759,46 +791,42 @@ body {
     left: 300px;
     display: none;
 }
-.checklabel1 {
-    padding-left: 25px;
-    color: #444;
-    position: absolute;
-    right: 150px;
-    top: 160px;
+.fake {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     position: relative;
+    top: 190px;
+    right: 155px;
 }
-.checklabel1:before {
-    content: "";
-    display: block;
-    width: 13px;
-    height: 13px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    position: absolute;
-    top: 0;
-    /*left: 0;*/
-    z-index: 1;
-    right: 241px;
-}
-.checklabel1:after {
-    content: "";
-    display: block;
-    width: 14px;
-    height: 14px;
-    background: url("galka.png") no-repeat;
-    background-size: 100%;
-    position: absolute;
-    top: 1px;
-    /*left: 2px;*/
-    z-index: 2;
+.fake::before {
+    content: "\2714";
     opacity: 0;
-    right: 241px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
 }
-.checkbox3:checked + .checklabel1:before {
+.checkbox:checked + .fake::before {
+    opacity: 1;
+}
+.textsp {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 23px;
+    padding-left: 6px;
+    position: relative;
+    top: 185px;
+    right: 155px;
+}
 
-}
-.checkbox3:checked + .checklabel1:after {
-    background-color: #E3B873;
+.checkbox3:checked + .fake:before {
     opacity: 1;
 }
 .elipsesvin {
@@ -827,7 +855,6 @@ body {
 }
 .hero5 {
     background-image: url("hero5fon.png");
-    width: 1440px;
     height: 864px;
     background-size: cover;
     padding-right: 79px;
@@ -850,6 +877,15 @@ body {
     width: 1263px;
     height: 840px;
 }
+.clockmob {
+    display: none;
+}
+.strelkal2 {
+    display: none;
+}
+.strelkar2 {
+    display: none;
+}
 .we {
     font-family: 'Yeseva One';
     font-style: normal;
@@ -861,6 +897,9 @@ body {
     position: relative;
     top: 150px;
     left: 50px;
+}
+.we2 {
+    display: none;
 }
 .classic {
     font-family: 'Nunito Sans';
@@ -907,27 +946,35 @@ body {
 }
 .tv {
     position: relative;
-    bottom: 723px;
-    left: 584px;
+    bottom: 376px;
+    right: 492px;
 }
 .hero6 {
     width: 1439px;
     height: 1109px;
 }
-.ourcl {
+.clientsh {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
     position: relative;
-    top: 120px;
-    left: 720px;
- }
+    top: 160px;
+    left: 50px;
+}
 .hand {
     position: relative;
     top: 172px;
-    left: 590px;
+    left: 710px;
 }
 .perc {
     position: relative;
     top: 190px;
-    left: 70px;
+    left: 60px;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -936,12 +983,16 @@ body {
     text-align: center;
     color: #363636;
 }
+.container-flex2 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 300px;
+    left: 80px;
+}
 .fedosova {
     position: relative;
-    top: 210px;
-    left: 100px;
-    width: 386px;
-    height: 428px;
+    bottom: 4px;
 }
 .fedh {
     font-family: 'Yeseva One';
@@ -975,16 +1026,10 @@ body {
     height: 56px;
     border: none;
     position: relative;
-    bottom: 20px;
+    bottom: 23px;
     right: 20px;
 }
-.afanasyev {
-    position: relative;
-    bottom: 212px;
-    left: 600px;
-    width: 386px;
-    height: 428px;
-}
+
 .afanh {
     font-family: 'Yeseva One';
     font-style: normal;
@@ -1016,13 +1061,7 @@ body {
     bottom: 17px;
     right: 20px;
 }
-.kiriev {
-    position: relative;
-    bottom: 640px;
-    left: 1070px;
-    width: 386px;
-    height: 428px;
-}
+
 .kirphoto {
     position: relative;
 }
@@ -1055,15 +1094,23 @@ body {
     right: 20px;
 }
 .hero7 {
-    width: 1439px;
+    width: 1515px;
+    height: 1050px;
+    background-image: url(hous.png);
+    background-size: cover;
+    position: relative;
+    top: 200px;
 }
 .quest {
     width: 883px;
     height: 445.32px;
     background-color: black;
     position: relative;
-    bottom: 120px;
+    bottom: 200px;
     left: 310px;
+}
+.quest2 {
+    display: none;
 }
 .have {
     font-family: 'Yeseva One';
@@ -1241,3 +1288,69 @@ body {
 .form-button111:hover {
     background: black;
     color: #E3B873;
+}
+.hero7-overlay {
+    content: '';
+    width: 1440px;
+    height: 1050px;
+    position: absolute;
+    padding-right: 79px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.8);
+}
+.adress {
+    position: relative;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    bottom: 50px;
+    left: 20px;
+}
+.map {
+    position: relative;
+    z-index: 1;
+    bottom: 20px;
+    left: 265px;
+}
+.map2 {
+    display: none;
+}
+.footem {
+    display: none;
+}
+.foot {
+    background-color: black;
+    position: relative;
+    top: 200px;
+}
+.footer-content {    
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    width: 1500px;
+    align-items: center;
+}
+.logo2 {
+    color: #E3B873;
+}
+.footer-navi {
+    list-style: none;
+    display: flex;
+}
+.footer-navi-item {
+    margin-right: 47px;
+}
+.footer-navi-item a {
+    text-decoration: none;
+    color: white;
+}
+#tel2 {
+    text-decoration: underline;

@@ -1,0 +1,327 @@
+@media only screen and (max-width: 768px) {
+	body {
+		width: 768px;
+	}
+	.header-navi-item {
+		display: none;
+	}
+	.button2 {
+		width: 500px;
+	}
+	.button3 {
+		display: none;
+	}
+	.button3mob {
+	    display: inline;
+	    text-transform: uppercase;
+	    position: relative;
+	    right: 44px;
+	    top: 50px;
+	    width: 500px;
+        background: rgba(0, 0, 0, 0.1);
+        font-family: 'Nunito Sans';
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 2px;
+        padding: 19px;
+        margin-left: 44px;
+	}
+	.admiral {
+		display: none;
+	}
+	.kv {
+        display: inline;
+		position: relative;
+		top: 290px;
+		width: 500px;
+	}
+	.imager {
+		display: none;
+	}
+	.hero3 {
+		background-color: black;
+		height: 1100px;
+    }
+	.vectors {
+		display: none;
+	}
+	.completed {
+		position: absolute;
+		left: 150px;
+		text-align: center;
+	}
+	.years {
+		display: none;
+	}
+	.years2 {
+		display: inline;
+		text-align: center;
+		position: absolute;
+		left: 50px;
+	}
+	.cityd {
+		position: relative;
+		top: 370px;
+	}
+	.strelkal {
+		display: inline;
+        position: relative;
+        top: 130px;
+        right: 486px;
+	}
+	.strelkar {
+		display: inline;
+		position: relative;
+		top: 130px;
+		right: 101px;
+	}
+	.camera {
+	    position: relative;
+		top: 250px;
+        left: 298px;
+		z-index: 2;
+    }
+    .video-container {
+        position: relative;
+        right: 294px;
+    }   
+    .remont {
+        top: 245px;
+        left: 323px;
+        width: 710px;
+    }
+    .hero3-overlay {
+        position: absolute;
+    	top: 316px;
+    	width: 768px;
+    }
+    .play {
+    	position: relative;
+    	left: 610px;
+    	top: 1px;
+    }
+    .hr {
+    	position: relative;
+    	left: 506px;
+        top: 150px;
+    }
+    .text3 {
+    	text-align: center;
+    	color: white;
+    	display: flex;
+    	position: relative;
+    	left: 370px;
+    	top: 150px;
+    }
+    ::placeholder {
+    	color: white;
+    }
+    .form-input {
+    	border-color: rgba(255, 255, 255, 1.0);
+    	width: 40%;
+    }
+    #labelphone {
+    	display: none;
+    }
+    #labelnumber {
+    	display: inline;
+    	position: absolute;
+    	top: 70px;
+    }
+    #phonenumber {
+    	position: absolute;
+    	top: 100px;
+    	right: 300px;
+    }
+    #name {
+    	position: absolute;
+    	right: 100px;
+    }
+    .checklabel {
+        position: relative;
+        left: 65px;
+        top: 170px;
+    }
+    .form-button {
+    	position: relative;
+    	top: 260px;
+    	left: 270px;
+    }
+    .hero4 {
+    	height: 1100px;
+    }
+    .container-flex {
+    	position: relative;
+    	left: 120px;
+    }
+    .zag {
+    	position: relative;
+    	right: 380px;
+    	bottom: 20px;
+    }
+    .blue {
+    	position: relative;
+    	left: 70px;
+    	}
+    .orange {
+    	display: none;
+    }
+    .green {
+    	display: none;
+    }
+    .orangebut {
+    	display: none;
+    }
+    .greenbut {
+    	display: none;
+    }
+    .fonform {
+    	display: none;
+    }
+    .formdiv {
+    	display: none;
+    }
+    .hero5-overlay {
+    	display: none;
+    }
+    .container_hero5cont {
+    	display: none;
+    }
+    .we2 {
+    	display: inline;
+    	font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 37px;
+        text-transform: uppercase;
+        color: #E3B873;
+        position: relative;
+        bottom: 205px;
+        left: 250px;
+        text-align: center;
+    }
+    .strelkal2 {
+    	display: inline;
+    	position: relative;
+    	top: 410px;
+    	left: 50px;
+    	width: 50px;
+    	height: 50px;
+    }
+    .strelkar2 {
+    	display: inline;
+    	position: relative;
+    	top: 410px;
+    	left: 640px;
+    	width: 50px;
+    	height: 50px;
+    }
+    .hero6 {
+    	display: none;
+    }
+    .quest {
+    	display: none;
+    }
+    .hero7 {
+    	background-image: none;
+    	background-color: black;
+    }
+    .quest2 {
+    	display: block;
+    	background-color: black;
+    	width: 768px;
+    	height: 500px;
+    	position: relative;
+    	bottom: 250px;
+    	right: px;
+    }
+    .have {
+    	font-size: 40px;
+    }
+    .form-input111 {
+    	position: absolute;
+    	left: 50px;
+    	top: 130px;
+    	font-size: 20px;
+    	width: 50%;
+    }
+    .form-input222 {
+    	position: absolute;
+    	top: 250px;
+    	left: 50px;
+    	width: 50%;
+    	font-size: 20px;
+    }
+    .form-input333 {
+    	position: absolute;
+    	left: 50px;
+    	top: 380px;
+    	font-size: 20px;
+    	width: 50%;
+    }
+    .label111 {
+    	position: absolute;
+    	top: 90px;
+    	left: 60px;
+    	font-size: 17px;
+    }
+    .label222 {
+    	position: absolute;
+    	left: 60px;
+    	top: 210px;
+    	font-size: 17px;
+    }
+    .label333 {
+    	position: absolute;
+    	left: 60px;
+    	top: 340px;
+    	font-size: 17px;
+    }
+    .checklabel444 {
+    	position: absolute;
+    	top: 470px;
+    	right: 300px;
+    	font-size: 22px;
+    	color: white;
+    }
+    .form-button111 {
+    	position: absolute;
+    	top: 560px;
+    	left: 30px;
+    }
+    .map {
+    	display: none;
+    }
+    .hero7 {
+    	width: 768px;
+    }
+    .hero7-overlay {
+    	display: none;
+    }
+    .map2 {
+    	display: inline;
+    	position: relative;
+    	right: 158px;
+    	bottom: 80px;
+    }
+    .adress {
+    	position: absolute;
+    	left: 120px;
+    }
+    .footem {
+    	display: inline;
+    	position: relative;
+    	left: 320px;
+    	top: 30px;
+
+    }
+    .foot {
+    	display: none;
+    }
+
+}
